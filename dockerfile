@@ -11,4 +11,4 @@ ADD utils/ /app/utils/
 ADD models/ /app/models/
 ADD images/ /app/images
 
-CMD ['streamlit', 'run', '/app/datcraft.py']
+CMD ["streamlit", "run", "/app/datcraft.py"]
