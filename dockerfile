@@ -4,6 +4,7 @@ WORKDIR /app/
 
 ADD requirements.txt /app/requirements.txt
 RUN pip install -r requirements.txt
+EXPOSE 8501
 
 ADD datacraft.py /app/datcraft.py
 ADD css/ /app/css/
